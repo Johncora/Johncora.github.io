@@ -22,15 +22,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="博客">
-<meta property="og:url" content="http://example.com/archives/2024/04/index.html">
+  <meta name="description" content="Git 指令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git note">
+<meta property="og:url" content="http://example.com/2024/04/03/Git-note/index.html">
 <meta property="og:site_name" content="博客">
+<meta property="og:description" content="Git 指令">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-04-03T08:04:36.000Z">
+<meta property="article:modified_time" content="2024-04-03T08:34:55.590Z">
 <meta property="article:author" content="John cora">
+<meta property="article:tag" content="分享">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/2024/04/">
+<link rel="canonical" href="http://example.com/2024/04/03/Git-note/">
 
 
 <script id="page-configurations">
@@ -38,12 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 博客</title>
+  <title>Git note | 博客</title>
   
 
 
@@ -179,70 +184,150 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/04/03/Git-note/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John cora">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Git note
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-04-03 16:04:36 / 修改时间：16:34:55" itemprop="dateCreated datePublished" datetime="2024-04-03T16:04:36+08:00">2024-04-03</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/note/" itemprop="url" rel="index"><span itemprop="name">note</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2024</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-04-03T16:04:36+08:00"
-              content="2024-04-03">
-          04-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/04/03/Git-note/" itemprop="url">
-            <span itemprop="name">Git note</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-04-03T15:32:34+08:00"
-              content="2024-04-03">
-          04-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/04/03/Makedown-note/" itemprop="url">
-            <span itemprop="name">Makedown note</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        <h1 id="Git-指令"><a href="#Git-指令" class="headerlink" title="Git 指令"></a>Git 指令</h1><span id="more"></span>
+<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><ul>
+<li>指令别名………….	alias ll&#x3D;’ls -al’</li>
+<li>设置名称………….	git config –global user.name</li>
+<li>设置邮箱………….	git config –global user.email</li>
+<li>初始化git…………	git init</li>
+</ul>
+<h2 id="文件提交"><a href="#文件提交" class="headerlink" title="文件提交"></a>文件提交</h2><ul>
+<li>工作区 -&gt; 暂存区 ….. git add . (file name)</li>
+<li>暂存区 -&gt; 仓库…….. git commit -m “commit message 01”</li>
+<li>查看状态………….	git status</li>
+<li>查看提交记录………	git log		<blockquote>
+<p>log &#x3D; alias log&#x3D;’git log –all –pretty&#x3D;oneline –abbrev-commit –graph’</p>
+</blockquote>
+</li>
+<li>版本回退………….	git reset –hard  (commitID)</li>
+</ul>
+<h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><ul>
+<li>查看分支………….	git branch (branch name)<blockquote>
+<p>-a 查看所有分支<br /> -vv 查看分支绑定关系</p>
+</blockquote>
+</li>
+<li>创建并切换分支……..	git checkout -b (branch name)</li>
+<li>分支合并………….	git merge 分支名 （首先切换到master分支上）</li>
+<li>忽略文件………….	创建 .gitignore</li>
+</ul>
+<h2 id="push-远程仓库"><a href="#push-远程仓库" class="headerlink" title="push 远程仓库"></a>push 远程仓库</h2><ul>
+<li>生成SSH公钥………..	ssh-keygen -t rsa</li>
+<li>获取公钥…………..	cat ~&#x2F;.ssh&#x2F;id_rsa.pub</li>
+<li>验证是否匹配成功……	ssh -T <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
+<li>添加远程仓库………. git remote add origin <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x65;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x65;&#x65;&#46;&#x63;&#x6f;&#x6d;</a>:Johncora&#x2F;git-note.git</li>
+<li>查看远程仓库………. git remote</li>
+<li>推送到远程仓库……..	git push origin master:master</li>
+<li>git push –set-upstream origin master:master (git push)<blockquote>
+<p>–set-upstream 推送到远端的同时并且建立起和远端分支的关联关系<br /><br>-f 禁用 强制覆盖远端内容避免冲突</p>
+</blockquote>
+</li>
+<li>克隆…………….	git clone <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x65;&#x65;&#x2e;&#99;&#111;&#109;">&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x65;&#x65;&#x2e;&#99;&#111;&#109;</a>:Johncora&#x2F;git-note.git hello-git 文件夹名</li>
+<li>抓取……………..	git fetch</li>
+<li>拉取……………..	git pull</li>
+</ul>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%88%86%E4%BA%AB/" rel="tag"># 分享</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/04/03/Makedown-note/" rel="prev" title="Makedown note">
+      <i class="fa fa-chevron-left"></i> Makedown note
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -295,6 +380,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Git-%E6%8C%87%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">Git 指令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">1.1.</span> <span class="nav-text">初始化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E6%8F%90%E4%BA%A4"><span class="nav-number">1.2.</span> <span class="nav-text">文件提交</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E6%94%AF"><span class="nav-number">1.3.</span> <span class="nav-text">分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#push-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-number">1.4.</span> <span class="nav-text">push 远程仓库</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

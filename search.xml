@@ -3,7 +3,8 @@
   <entry>
     <title>Makedown note</title>
     <url>/2024/04/03/Makedown-note/</url>
-    <content><![CDATA[<h1 id="Makedonwn-使用方法"><a href="#Makedonwn-使用方法" class="headerlink" title="Makedonwn 使用方法"></a>Makedonwn 使用方法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><p>Makedown 标题分为六个等级</p>
+    <content><![CDATA[<h1 id="Makedonwn-使用方法"><a href="#Makedonwn-使用方法" class="headerlink" title="Makedonwn 使用方法"></a>Makedonwn 使用方法</h1><span id="more"></span>
+<h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><p>Makedown 标题分为六个等级</p>
 <p>#–&gt;######</p>
 <h2 id="2-图片"><a href="#2-图片" class="headerlink" title="2.图片"></a>2.图片</h2><p>！<a href="">图片描述</a></p>
 <p>()里输入图片链接</p>
@@ -30,6 +31,58 @@
 <blockquote>
 <p>区块</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git note</title>
+    <url>/2024/04/03/Git-note/</url>
+    <content><![CDATA[<h1 id="Git-指令"><a href="#Git-指令" class="headerlink" title="Git 指令"></a>Git 指令</h1><span id="more"></span>
+<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><ul>
+<li>指令别名………….	alias ll&#x3D;’ls -al’</li>
+<li>设置名称………….	git config –global user.name</li>
+<li>设置邮箱………….	git config –global user.email</li>
+<li>初始化git…………	git init</li>
+</ul>
+<h2 id="文件提交"><a href="#文件提交" class="headerlink" title="文件提交"></a>文件提交</h2><ul>
+<li>工作区 -&gt; 暂存区 ….. git add . (file name)</li>
+<li>暂存区 -&gt; 仓库…….. git commit -m “commit message 01”</li>
+<li>查看状态………….	git status</li>
+<li>查看提交记录………	git log		<blockquote>
+<p>log &#x3D; alias log&#x3D;’git log –all –pretty&#x3D;oneline –abbrev-commit –graph’</p>
+</blockquote>
+</li>
+<li>版本回退………….	git reset –hard  (commitID)</li>
+</ul>
+<h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><ul>
+<li>查看分支………….	git branch (branch name)<blockquote>
+<p>-a 查看所有分支<br /> -vv 查看分支绑定关系</p>
+</blockquote>
+</li>
+<li>创建并切换分支……..	git checkout -b (branch name)</li>
+<li>分支合并………….	git merge 分支名 （首先切换到master分支上）</li>
+<li>忽略文件………….	创建 .gitignore</li>
+</ul>
+<h2 id="push-远程仓库"><a href="#push-远程仓库" class="headerlink" title="push 远程仓库"></a>push 远程仓库</h2><ul>
+<li>生成SSH公钥………..	ssh-keygen -t rsa</li>
+<li>获取公钥…………..	cat ~&#x2F;.ssh&#x2F;id_rsa.pub</li>
+<li>验证是否匹配成功……	ssh -T <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x65;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
+<li>添加远程仓库………. git remote add origin <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x65;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x65;&#x65;&#46;&#x63;&#x6f;&#x6d;</a>:Johncora&#x2F;git-note.git</li>
+<li>查看远程仓库………. git remote</li>
+<li>推送到远程仓库……..	git push origin master:master</li>
+<li>git push –set-upstream origin master:master (git push)<blockquote>
+<p>–set-upstream 推送到远端的同时并且建立起和远端分支的关联关系<br /><br>-f 禁用 强制覆盖远端内容避免冲突</p>
+</blockquote>
+</li>
+<li>克隆…………….	git clone <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x65;&#x65;&#x2e;&#99;&#111;&#109;">&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x65;&#x65;&#x2e;&#99;&#111;&#109;</a>:Johncora&#x2F;git-note.git hello-git 文件夹名</li>
+<li>抓取……………..	git fetch</li>
+<li>拉取……………..	git pull</li>
+</ul>
 ]]></content>
       <categories>
         <category>note</category>
