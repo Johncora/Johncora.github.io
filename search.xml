@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Makedown note</title>
+    <url>/2024/04/03/Makedown-note/</url>
+    <content><![CDATA[<h1 id="Makedonwn-使用方法"><a href="#Makedonwn-使用方法" class="headerlink" title="Makedonwn 使用方法"></a>Makedonwn 使用方法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><p>Makedown 标题分为六个等级</p>
+<p>#–&gt;######</p>
+<h2 id="2-图片"><a href="#2-图片" class="headerlink" title="2.图片"></a>2.图片</h2><p>！<a href="">图片描述</a></p>
+<p>()里输入图片链接</p>
+<h2 id="3-链接"><a href="#3-链接" class="headerlink" title="3.链接"></a>3.链接</h2><p><a href="https://www.baidu.com/?/">百度</a></p>
+<h2 id="4-字体加粗-斜体"><a href="#4-字体加粗-斜体" class="headerlink" title="4.字体加粗&amp;斜体"></a>4.字体加粗&amp;斜体</h2><p><strong>字体加粗</strong>  没加粗状态</p>
+<p><em>斜体</em></p>
+<h2 id="5-列表"><a href="#5-列表" class="headerlink" title="5.列表"></a>5.列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
+<li>输入 + 显示无序列表</li>
+<li>QAQ</li>
+</ul>
+<h2 id="6-删除线"><a href="#6-删除线" class="headerlink" title="6.删除线"></a>6.删除线</h2><p><del>删除线</del></p>
+<p>注意~~要紧挨着内容(不要加空格)</p>
+<h2 id="7-代码"><a href="#7-代码" class="headerlink" title="7.代码"></a>7.代码</h2><h3 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h3><p><code>#include &lt;stdio.h&gt;</code></p>
+<p>输入英文的&#96;&#96;</p>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>首尾输入 &#96;&#96;&#96;</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;hello world!&quot;);</span><br><span class="line"></span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="8-分割线"><a href="#8-分割线" class="headerlink" title="8.分割线"></a>8.分割线</h2><p>输入  ****  回车</p>
+<hr>
+<p>输入 &gt; 空格</p>
+<blockquote>
+<p>区块</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+</search>
